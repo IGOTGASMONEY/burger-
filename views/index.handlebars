@@ -1,16 +1,16 @@
-<h1>Cats!</h1>
+<h1>Burgers!</h1>
 
-<h2>Cats that are not sleepy!</h2>
+<h2>Burgers which have not been devoured !</h2>
 
 <ul>
-  {{#each cats}}
-    {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Cats that are sleepy!</h2>
+<h2>Burgers Devoured!</h2>
 
 <ul>
   {{#each burgers}}
